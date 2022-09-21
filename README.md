@@ -56,4 +56,9 @@ Row wise computation vs diagonal wise computation
 
 In the GPU implementation the diagonals are computed one after the other. But the entire diagonal can be computed at once, which is implemented using CUDA kernel.
 
+### Analysis
+With NVIDIA Tesla T4, the CUDA implementaion is much faster than the CPU implementations:  
+The graphs is in the log scale:  
+
+![download](https://user-images.githubusercontent.com/14043633/191614849-32a8b1fa-4a18-43ca-a600-637e5c65a2f8.png)
 
